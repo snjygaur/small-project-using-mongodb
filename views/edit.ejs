@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit page</title>
+</head>
+<body>
+    <p>chat id is :<%= chats._id %></p>
+     <p>message came from <%= chats.form %> message recieved by <%= chats.to %></p>
+    <form  action="/users/<%= chats.id%>?_method=put" method="post">
+        put your message<input type="text" name="msg" placeholder="<%=chats.msg %>">
+       
+        <button>submit</button>
+
+
+    </form>
+    
+</body>
+</html>

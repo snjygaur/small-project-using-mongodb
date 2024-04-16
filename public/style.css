@@ -1,0 +1,17 @@
+body{
+    margin-left:20px;
+}
+.main{
+    background-color: aliceblue;
+    border-radius:12px ;
+    padding:20px;
+    display: inline-block;
+}
+.msg{
+    color:white;
+    background-color: dodgerblue;
+    padding:10px 10px;
+    border-radius: 10px;
+    
+   
+}
